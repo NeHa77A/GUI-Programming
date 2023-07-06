@@ -10,7 +10,7 @@ root = Tk()
 root.title("Text to speech")
 root.geometry("900x450")
 root.resizable(False,False)
-root.configure(bg="#2827CC")
+root.configure(bg="#51E1ED")
 
 engine = pyttsx3.init()
 def speaknow():
@@ -93,8 +93,8 @@ Label(Top_frame,text="TEXT TO SPEECH",font="arial 20 bold",bg="white", fg="black
 text_area = Text(root,font="Robote 20", bg="white", relief=GROOVE,wrap=WORD)
 text_area.place(x=10,y=150,width=500,height=250)
 
-Label(root,text="VOICE",font="arial 15 bold",bg="#2827CC",fg="white").place(x=550,y=160)
-Label(root,text="SPEED",font="arial 15 bold",bg="#2827CC",fg="white").place(x=750,y=160)
+Label(root,text="VOICE",font="arial 15 bold",bg="#51E1ED",fg="black").place(x=550,y=160)
+Label(root,text="SPEED",font="arial 15 bold",bg="#51E1ED",fg="black").place(x=750,y=160)
 
 ## Gender
 gender_combobox = Combobox(root,values=['Male',"Female"],font="arial 14",state="r",width=10)
